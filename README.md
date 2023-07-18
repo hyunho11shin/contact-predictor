@@ -14,7 +14,7 @@ CSSB 2023 Summer Study
 sleep 10s
 echo "Hello IU"
 ```
-or
+Alternatively,
 ```
 qlogin -p gpu -c 4 --mem 32g --gres=gpu:A6000:2
 ```

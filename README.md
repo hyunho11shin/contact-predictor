@@ -2,14 +2,14 @@
 
 CSSB 2023 Summer Study
 
-### Run Script
+### Hello IU
 ```
 #!/bin/bash
 #SBATCH -p gpu
 #SBATCH --mem=32g
 #SBATCH --gres=gpu:A5000:2
 #SBATCH -c 4
-#SBATCH --output=example_iu.out
+#SBATCH --output=helloiu.out
 
 sleep 10s
 echo "Hello IU"

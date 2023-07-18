@@ -2,7 +2,7 @@
 
 CSSB 2023 Summer Study
 
-### Hello IU
+### Run Script
 ```
 #!/bin/bash
 #SBATCH -p gpu
